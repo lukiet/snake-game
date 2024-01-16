@@ -1,0 +1,44 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+    background-position: center;
+    background-size: cover;
+}
+.board{
+    padding: 0;
+    border: 20px dashed rgb(212, 0, 255);
+}
+.board2{
+    padding: 0;
+    border: 20px dotted rgb(0, 255, 76);
+}
+.board3{
+    padding: 0;
+    border: 20px groove rgb(255, 255, 255);
+    
+}
+h1{
+    padding-left: 70px;
+    margin: 0;
+    color: aliceblue;
+    background-color: black;
+}
+button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 34px 5px;
+    font-size: 13px;
+    background: black;
+    position: relative;
+    cursor: pointer;
+
+}
+button:hover{
+    border: 1px solid #4609f0;
+    background: #4609f0;
+    transition: 1s;
+
+}
